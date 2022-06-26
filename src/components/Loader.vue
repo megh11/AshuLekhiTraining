@@ -1,0 +1,22 @@
+<template>
+  <div class="loaderBG">
+    <div class="spinner-grow text-info" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.loaderBG{
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+</style>
